@@ -20,4 +20,6 @@ jobs:
     steps:
     - uses: actions/checkout@main
     - run: npm ci
+      working-directory: FollowMe/FollowMe/App/followme
     - run: npm run build --if-present
+      working-directory: FollowMe/FollowMe/App/followme
